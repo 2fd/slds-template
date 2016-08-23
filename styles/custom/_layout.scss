@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    left: $spacing-none;
+    top: $spacing-none;
+    width: $size-medium;
+    padding: $spacing-none;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+main, footer {
+    max-width: $size-xx-large;
+    margin-left: $size-medium;
+    padding: $spacing-x-large;
+    box-sizing: border-box;
+    position: relative;
+}

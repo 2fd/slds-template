@@ -1,0 +1,36 @@
+{
+  "name": "slds-template",
+  "version": "0.0.0",
+  "description": "HTML template based on Lightning Design System",
+  "main": "index.html",
+  "private": true,
+  "scripts": {
+    "build.fonts": "rm -rf fonts || true &&  cp -r ./node_modules/@salesforce-ux/design-system/assets/fonts ./fonts",
+    "build.scss": "./node_modules/.bin/node-sass --output-style compressed --source-map true  --output styles styles/template.scss",
+    "build.d.ts": "./node_modules/.bin/tsc -d -p .",
+    "build.ts": "./node_modules/.bin/tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2fd/slds-template.git"
+  },
+  "keywords": [
+    "template",
+    "boilerplate",
+    "html"
+  ],
+  "author": "Fede Ramirez <i@2fd.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2fd/slds-template/issues"
+  },
+  "homepage": "https://github.com/2fd/slds-template#readme",
+  "devDependencies": {
+    "@salesforce-ux/design-system": "^2.0.3",
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "node-sass": "^3.8.0",
+    "typescript": "^2.0.0"
+  }
+}

@@ -1,0 +1,13 @@
+/// Include here all configuration variables
+
+/// CSS Prefix
+/// Will prefix all CSS classes
+///
+/// @example scss Compile without template prefix
+///  $custom-prefix: '';
+///
+/// @example scss Use in a class name
+///  .#{$custom-prefix}foo { ... } // outputs .custom-foo { ... }
+///
+/// @type String
+$custom-prefix: 'custom-' !default;
