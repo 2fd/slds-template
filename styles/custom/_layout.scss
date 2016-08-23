@@ -9,7 +9,12 @@ body {
     margin: 0;
 }
 
-nav {
+body, main, footer {
+    box-sizing: border-box;
+    position: relative;
+}
+
+body.with-navigation nav {
     left: $spacing-none;
     top: $spacing-none;
     width: $size-medium;
@@ -17,13 +22,29 @@ nav {
     position: fixed;
     height: 100%;
     overflow: auto;
-    box-sizing: border-box;
 }
 
-main, footer {
+body.navigation main,
+body.navigation footer {
+    padding: $spacing-x-large;
     max-width: $size-xx-large;
     margin-left: $size-medium;
+}
+
+body.content main section,
+body.content footer section {
     padding: $spacing-x-large;
-    box-sizing: border-box;
-    position: relative;
+    max-width: $size-xx-large;
+    margin: 0 auto;
+}
+
+body.presentation main section{
+    min-height: 100vh;
+}
+
+body.presentation main section .content,
+body.presentation footer section .content {
+    padding: $spacing-x-large;
+    max-width: $size-xx-large;
+    margin: 0 auto;
 }

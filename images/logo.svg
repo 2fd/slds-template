@@ -1,0 +1,8 @@
+<svg height="160" version="1.1" width="160" xmlns="http://www.w3.org/2000/svg">
+<path fill="#F3F3F3" stroke="#2185D5" stroke-width="2" d="M20,50L20,110L80,140L140,110L140,50L80,20Z"></path>
+<path fill="#2185D5" stroke="#2185D5" stroke-width="1" d="M40,60L40,100L80,120L120,100L120,60L100,50L80,60L60,50Z"></path>
+<path fill="#112358" opacity=".1" d="M20,50L60,70L60,90L80,100L80,140L20,110Z"></path>
+<path fill="#112358" opacity=".1" d="M80,60L80,80L100,90L100,70Z"></path>
+<path fill="#112358" opacity=".2" d="M80,100L80,140L140,110L140,50L100,70L100,90Z"></path>
+<path fill="#112358" opacity=".2" d="M60,70L60,90L80,80L80,60Z"></path>
+</svg>

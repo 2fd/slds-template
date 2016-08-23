@@ -38,7 +38,7 @@ jspm_packages
 
 
 # Fonts directory
-fonst
+fonts
 *.css
 *.css.map
 *.js
