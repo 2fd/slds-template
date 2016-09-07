@@ -38,6 +38,16 @@ body.document footer section {
     margin: 0 auto;
 }
 
+body.document main section.monospace {
+    font-family: monospace
+}
+
+body.document main section .document-title {
+    color: $color-text-inverse;
+    background: $color-background-inverse;
+    padding: $spacing-medium;
+}
+
 body.presentation main section{
     min-height: 56vh;
 }
