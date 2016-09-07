@@ -14,7 +14,7 @@ body, main, footer {
     position: relative;
 }
 
-body.with-navigation nav {
+body.navigation nav {
     left: $spacing-none;
     top: $spacing-none;
     width: $size-medium;
@@ -27,7 +27,7 @@ body.with-navigation nav {
 body.navigation main,
 body.navigation footer {
     padding: $spacing-x-large;
-    max-width: $size-xx-large;
+    max-width: $size-xx-small + $size-x-large + $size-xx-small;
     margin-left: $size-medium;
 }
 
@@ -49,11 +49,11 @@ body.document main section .document-title {
 }
 
 body.presentation main section{
-    min-height: 56vh;
+    min-height: 56vh; /* 16:9 */
 }
 
-body.presentation main section .document,
-body.presentation footer section .document {
+body.presentation main section .content,
+body.presentation footer section .content {
     padding: $spacing-x-large;
     max-width: $size-xx-large;
     margin: 0 auto;
